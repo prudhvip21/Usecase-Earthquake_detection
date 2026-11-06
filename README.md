@@ -1,20 +1,17 @@
 # Earthquake Prediction
 
-Estimate the time to failure from seismic signal segments, and use the problem to explore probability concepts.
+Predict the time remaining before a laboratory earthquake from acoustic signal data, so that seismic events can be anticipated earlier.
 
 ## Approach
 
-- Probability and signal exploration
-- Decision Tree, Random Forest and LightGBM regressors
+- Exploratory analysis of the acoustic signal and time to failure
+- Feature engineering on segments of the signal
+- Comparison of Linear Regression, SVR, Decision Tree, Random Forest, XGBoost and LightGBM regressors
 
 ## Start here
 
-[Probability of Earthquake.ipynb](Probability%20of%20Earthquake.ipynb)
+[Earthquake.ipynb](Earthquake.ipynb)
 
 ## Data
 
-The seismic data is not included in this repository.
-
-## Credits
-
-The notebook includes code credited to MJ Bahmani.
+LANL Earthquake Prediction data from Kaggle, not included in this repository.
